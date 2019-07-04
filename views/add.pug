@@ -3,12 +3,12 @@ extends layout
 block content
   h1 Step 1: #{title}
   form
-    input(type="text")
+    input(type="text" required)
     br
     label name
     br
     br
-    input(type="text")
+    input(type="text" required)
     br
     label alligation
     br
@@ -25,7 +25,7 @@ block content
     br 
     label details
     br
-    textarea(type="text")
+    textarea(type="text" required)
     br
     br
     button submit
